@@ -1,0 +1,99 @@
+#body 
+{
+    height: 100%;
+}
+
+html
+{
+    height: 100%;
+    background-color: black;
+}
+
+#btn_start
+{
+    width: 220px;
+    height: 60px;
+    border-radius: 0px;
+    box-shadow: black 0.2em 0.2em 0.9em;
+}
+
+#start
+{
+    width: 160px;
+    margin-top: 20%;
+}
+
+#menue
+{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_div
+{
+    width: 50%;
+    background-color: black;
+    height: 100px;
+}
+
+#r_menue
+{
+    width: 50%;
+    background-color: black;
+    height: 100px;
+}
+
+#logo
+{
+    font-weight: Verdana;
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+#navbar
+{
+    height: 100px;
+    float: right;
+    background-color: black;
+}
+
+.btn-group button{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+#title
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: red;
+}
+
+#content
+{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+::selection {
+    background: #ff0000; /* WebKit/Blink Browsers */
+    color: white;
+  }
+  ::-moz-selection {
+    background: #ff0000; /* Gecko Browsers */
+    color: white;
+  }
